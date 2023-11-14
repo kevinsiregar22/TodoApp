@@ -1,0 +1,84 @@
+// var i = 0;
+// while (i < 10) {
+//   i++;
+//   console.log(i);
+//   if (2 * i == i + 1) {
+//     break;
+//   }
+// }
+
+// let x = 1000;
+
+// while (x > 0) {
+//   console.log(x % 10);
+//   x = Math.floor(x / 10);
+// }
+
+// var s = 'HelloWorld!!!=)';
+// var i = 0;
+// while (i + 1 < s.length) {
+//   if (s.charAt(i) !== s.charAt(i + 1)) {
+//     console.log(s.charAt(i));
+//   }
+//   i = i + 1;
+// }
+// var n = 5;
+// for (let i = 1; i < n; i++) {
+//   for (let j = 1; j <= n - i; j++) {
+//     console.log(' ');
+//   }
+//   for (let k = 1; k <= i; k++) {
+//     console.log('X');
+//   }
+//   console.log('\n');
+// }
+
+var x = 0;
+function getData() {
+  x = x + 1;
+  return x;
+}
+
+// if (getData() > 0 || getData() < 10) {
+//   console.log(x);
+// }
+
+// 7-5+2*1=2
+// 3-0+4*2=4
+// 9-2+1*5=1
+// 2-6+3*4=4
+// 1-3+2*5=5
+// 4-6+4*9=9
+// 5-2+7*0=?
+
+// let total = 0;
+// for (let i = 1; i <= 5; i++) {
+//   if (i % 2 == 0) {
+//     total += 10;
+//   } else {
+//     total -= 5;
+//   }
+// }
+
+// console.log(total);
+
+// let a = 2;
+// let b = 5;
+// let c = 7;
+
+// for (;;) {
+//   if (a > 2 * b) {
+//     break;
+//   }
+//   a += c - b;
+//   b--;
+//   c++;
+// }
+
+// console.log(c - a);
+
+// let i = 5;
+// while (i > -0) {
+//   console.log(i);
+//   i--;
+// }
